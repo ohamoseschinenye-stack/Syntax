@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My First Website</title>
+        <link rel="stylesheet" href="style.css">
+
+        <h1></h1>
+
+        <style>
+            h1 {
+                color: blue;
+                font-size: 40px;
+                font-family: Arial;
+                text-align: right;
+                
+                
+            }
+
+            
+
+            body {
+                background-color:purple;
+            }
+               
+        </style>
+    </head>
+
+    <body>
+        <h1 id="main headng" title="Main Heading"1>Heading 1</h1>
+        
+        <hr>
+        
+
+        <p>This is a paragraph.</p>
+
+        <p><i>This text will be italic</i></p>
+        <p>This text is going to <small>appear small</small></p>
+        <p>This text should be <mark>highlighted</mark></p>
+        <p><em>This should appear emphasized</em></p>
+        <p>Price= <del>$400</del>$300</p>
+        <p>Price= <s>$200</s>$100</p>
+        
+        <p>H<sub>2</sub>O</p>
+        <p>X<sup>2</sup></p>
+
+        <h4>Special Characers</h4>
+        &euro;500 <br>
+        &dollar;400 <br>
+        &#8358;300 <br>
+        &pound;200 <br>
+        &reg; <br>
+        &copy; <br>
+        &amp; <br>
+        &it; <br>
+
+        <h5>LISTS</h5>
+        <h6>Ordered Lists</h6>
+        <ol>
+            <li>Abuja</li>
+            <li>Lagos</li>
+            <li>PortHarcourt</li>
+        </ol>
+
+        <h6>Unordered List</h6>
+        <ul>
+            <li>Nigeria</li>
+            <li>Ghana</li>
+            <li>South Africa</li>
+        </ul>
+
+        <h6>Definition Lists</h6>
+        <dl>HTML</dl>
+        <dt>HyperText Markup Language</dt>
+
+        <dl>CSS</dl>
+        <dt>Cascading Style Sheets</dt>
+
+        <h2>Images</h2>
+        <h3>Local Storage</h3>
+        <img src="images/Laptop1.jpg" alt="An image of a laptop" height="300px">
+
+        <h3>Online Image</h3>
+        <img src="https://images.pexels.com/photos/12899095/pexels-photo-12899095.jpeg" alt="Online Laptop Image" height="300px"> 
+
+
+
+       <h2><a href="https://www.google.com">Google</a></h2>
+       <h2><a href="https://www.youtube.com">Visit YouTube</a></h2>
+       <h2><a href="about.html">About Page</a></h2>
+       <h2><a href="mailto:moses@gmail.com">Send Email</a></h2>
+       <h2><a href="https://www.youtube.com" target="_blank">YouTube</a></h2>
+
+
+
+       <!-- Media -->
+
+       <h2>Media</h2>
+       <h2>Audio</h2>
+
+       <audio controls>
+        <source src="media/Audio 1.mp3" type="audio/mp3">
+       </audio>
+
+       <h2>Video</h2>
+       <video height="300px" controls>
+        <source src="media/Video 1.mp4" type="video/mp4">
+       </video>
+
+       <h2>Iframe (Embeded Video)</h2>
+
+       <iframe width="560" height="315" src="https://www.youtube.com/embed/jDbUg4f9EFw?si=JKrLxz7b9PRdPrNx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+       <h2>Table</h2>
+       <table border="1">
+        <tr>
+            <th colspan="3">Student Details</th>
+            <th colspan="1">Address</th>
+        </tr>
+            
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Course</th>
+            <th>Location</th>     
+        </tr>
+
+        <tr>
+            <td>John</td>
+            <td>20</td>
+            <td>HTML</td>
+            <td>Abuja</td>
+        </tr>
+
+        <tr>
+            <td>William</td>
+            <td>21</td>
+            <td>HTML</td>
+            <td>Abuja</td>
+        </tr>
+
+        <tr>
+            <td>Esther</td>
+            <td>22</td>
+            <td>JavaScript</td>
+            <td>Benin</td>
+        </tr>
+       </table>
+
+    <h2>HTML Forms</h2>
+       <form action="about.html" method="get">
+        <label>Name:</label>
+        <input type="text"> <br>
+
+        <label>Email:</label> 
+        <input type="email"><br>
+        
+        <label>Password:</label>
+        <input type="password"><br>
+
+        <button type="submit">Register</button><br>
+
+        <label for="gender">Gender:</label><br>
+        <input type="radio" name="gender" id="female">
+        <label for="female">Female</label>
+        
+        <input type="radio" name="gender" id="male">
+        <label for="male">Male</label><br>
+
+        <label for="dob">Date of Birth:</label><br>
+        <input type="date" id="dob" name="dob"><br>
+
+        <h2>Dropdown</h2>
+        <label for="course">Course:</label><br>
+
+        <select id="course" name="course">
+            <option value="" selected disabled hidden>Select Course</option>
+            <option>HTML</option>
+            <option>CSS</option>
+            <option>JavaScript</option>
+            <option>Others</option>
+        </select>
+
+        <h2></h2>
+        <label for="comment">Leave a comment:</label><br>
+
+        <textarea id="comment" name="comment" placeholder="Write your comment here..." rows="5" cols="30"></textarea>
+
+
+       </form>
+
+       
+
+
+
+
+
+
+
+
+
+
+
+    </body>
+</html>
